@@ -1,0 +1,190 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main-container {
+    border:1px solid white;
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    height:900px;
+    margin: 10px 90px;
+    flex-wrap: wrap;
+
+        background-image: url('file:///C:/Users/AAA/Downloads/stock-photo-of-the-home-page-of-social-media-site-instagram-on-a-smartphone-T0PWYT.jpg'); 
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size:550px 850px; 
+        
+}
+
+.box2 {
+    border:1px solid none;
+    width:43%;
+    height:600px;
+    margin:30px;
+  
+  
+}
+
+  
+
+.box1 {
+    border:2px solid rgb(170, 168, 168);
+    width:40%;
+    height:570px;
+    margin: 30px;
+    padding: 10px;
+}
+.box1 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .input-box {
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border:2px solid rgb(170, 168, 168);
+    background-color: #eff5f5;
+  }
+  .input-login-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+  }
+  .input-login-box {
+    width: 80%;
+    height: 25px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border:2px solid rgb(170, 168, 168);
+    background-color: #15bce6;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input-login-boxes {
+    position: relative; 
+    }
+    
+    .input-login-boxes::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgb(105, 104, 104);
+    width: 300px;
+    }
+    .box1 h4 {
+        text-align: center;
+        font-size: 15px;
+        color: #5e5c5c;
+    }
+    .img-text {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-text img {
+        height: 20px;
+        width:20px;
+        padding: 10px;
+    }
+    .img-text p {
+        color: rgb(13, 13, 104);
+    }
+    .box1 h5 {
+        text-align: center;
+        font-size: 14px;
+        color: #076b7c;
+        margin-top: 10px;
+        margin-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .small-box {
+    border:2px solid rgb(170, 168, 168);
+    background-color: rgb(236, 235, 233);
+    width:42%;
+    height:70px;
+    margin-left:668px ;
+    margin-bottom: 520px;
+    cursor:pointer;
+    
+    }
+    .small-box p {
+        text-align: center;
+        font-size: 18px;
+        color: #053e47;
+        margin:23px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .small-box h6 {
+        text-align: center;
+        font-size: 16px;
+        color: #050505;
+        margin-top: 10px;
+        margin-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 200px;
+        height: 60px;
+        background-color: #070505;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: 50px;
+       margin-bottom: 40px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      .box img {
+        height: 45px;
+        width:45px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        
+    }
+    .box p {
+        color: rgb(243, 243, 247);
+        font-size: 16px;
+        margin:10px;
+
+    }
+  
+      
+      
+      
+  
+  
+  
+
+  
