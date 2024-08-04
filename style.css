@@ -11,8 +11,7 @@ body {
     height:900px;
     margin: 10px 90px;
     flex-wrap: wrap;
-
-        background-image: url('file:///C:/Users/AAA/Downloads/stock-photo-of-the-home-page-of-social-media-site-instagram-on-a-smartphone-T0PWYT.jpg'); 
+        background-image: url('images/instagram.jpg'); 
         background-position: left; 
         background-repeat: no-repeat; 
         background-size:550px 850px; 
